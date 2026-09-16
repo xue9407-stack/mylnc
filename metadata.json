@@ -1,0 +1,8 @@
+{
+  "name": "Remix 网巢 AI角色社交APP",
+  "description": "基于ThinkPHP 5与MySQL 5.6后端架构的AI角色互动伴侣移动端APP，支持11位拟真性格角色对话、角色广场、会员与创作中心。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#3b0764" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="210" stroke="rgba(168, 85, 247, 0.25)" stroke-width="6" fill="none" />
+  <g transform="translate(256 256) scale(0.68) translate(-256 -256)">
+    <!-- Stylized Heart & AI Connection Nodes -->
+    <path fill="url(#heartGrad)" d="M256,440 C140,320 64,240 64,152 C64,88 112,40 176,40 C212,40 244,60 256,88 C268,60 300,40 336,40 C400,40 448,88 448,152 C448,240 372,320 256,440 Z" filter="drop-shadow(0 12px 24px rgba(236,72,153,0.4))" />
+    <circle cx="256" cy="180" r="28" fill="#ffffff" />
+    <circle cx="200" cy="240" r="18" fill="#ffffff" opacity="0.9" />
+    <circle cx="312" cy="240" r="18" fill="#ffffff" opacity="0.9" />
+    <path d="M200,240 L256,180 L312,240" stroke="#ffffff" stroke-width="8" stroke-linecap="round" fill="none" />
+  </g>
+</svg>
